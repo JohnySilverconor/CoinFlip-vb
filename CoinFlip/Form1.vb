@@ -78,7 +78,7 @@ Public Class Form1
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Dim pfc As New PrivateFontCollection()
-        pfc.AddFontFile("C:\Users\User\Documents\Visual Studio 2012\Projects\CoinFlip\CoinFlip\Resources\Mario-Party-Hudson-Font.ttf")
+        pfc.AddFontFile("C:\Users\User\Documents\Visual Studio 2012\Projects\CoinFlip\CoinFlip\Resources\Mson-Font.ttf")
         lblplayerwins.Font = New Font(pfc.Families(0), 16, FontStyle.Regular)
 
         Label1.Font = New Font(pfc.Families(0), 16, FontStyle.Regular)
@@ -86,3 +86,4 @@ Public Class Form1
         Randomize()
     End Sub
 End Class
+
